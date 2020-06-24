@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Market Component</title>
+<style>
+body {
+	font-family: sans, sans-serif, arial;
+}
+
+body>div {
+	margin: 0 auto;
+	width: 80%;
+}
+
+h1 {
+	color: #233266;
+	font-size: 1.2em;
+	font-weight: 800;
+}
+
+p {
+	color: #555555;
+	font-size: .8em;
+	font-weight: 500;
+}
+
+div#hasTable {
+	border: 1px solid #ddd;
+	border-bottom: none;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	
+	box-shadow: .09em .6em 2em .1em #ddd;
+}
+
+table {
+	width: 100%;
+	border-top: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-collapse: collapse;
+}
+
+caption {
+	font-size: .7em;
+	font-weight: 600;
+	border-bottom: .14em solid #ddd;
+	padding: 10px;
+}
+
+h3 {
+	font-size: 0.77em;
+	font-weight: 700;
+	color: #1b2740;
+}
+
+li {
+	color: #999999;
+	font-size: .65em;
+}
+
+#borderdRow {
+	border-top: .12em solid #ddd;
+	border-bottom: .12em solid #ddd;
+}
+
+tr>td:nth-child(odd){
+	font-size: .8em;
+	font-weight: 600;
+}
+
+tr>td:nth-child(1){
+	padding: 0 .6em;
+	text-align:center;
+}
+
+h3>span {
+	background-color: #d2f0d5;
+	padding: .28em;
+	font-weight: 400;
+	font-size: .7em;
+	color: #888888;
+	border-radius: .3em;
+}
+
+button {
+	width: 100%;
+	background-color: #677ba6;
+	border: none;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	padding: .5em;
+	color: #ffffff;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+button:hover, button:focus {
+	background-color: #4664a6;
+	vertical-align: center;
+}
+
+button>span {
+	font-size: .73em;
+	font-weight: 600;
+	margin-left: 2
+}
+
+button>img {
+	position: absolute;
+	top: .2em;
+	left: .6em;
+}
+
+
+</style>
+</head>
+<body>
+<div>
+	<h1> Market - Corporate Business Website Template</h1>
+	<p>January 23, 2020</p>
+	<div id="hasTable">
+		<table>
+			<caption>Choose your Plan</caption>
+			<tbody>
+				<tr>
+					<td><input type="radio"></td>
+					<td>
+						<div>
+							<h3>Starter</h3>
+							<ul>
+								<li>Backlink Mandatory</li>
+								<li>Contact form with 50 entries / month.</li>
+							<ul>
+						</div>
+					</td>
+					<td><del>$0</del> Free</td>
+				</tr>
+				<tr id="borderdRow">
+					<td><input type="radio"></td>
+					<td>
+						<div>
+							<h3>Liberty <span>RECOMMENDED</span></h3>
+							<ul>
+								<li>Use in Single domain</li>
+								<li>Contact form with 150 entries / month.</li>
+							<ul>
+						</div>
+					</td>
+					<td>$10</td>
+				</tr>
+				<tr>
+					<td><input type="radio"></td>
+					<td>
+						<div>
+							<h3>Extended</h3>
+							<ul>
+								<li>Use in Multiple domains.</li>
+								<li>Contact form with 150 submissions / month.</li>
+							<ul>
+						</div>
+					</td>
+					<td>$98</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<button>
+		<img width="20" src="card.png">
+		<span>Buy Now ($10)</span>
+	</button
+</div>
+</body>
+</html>
